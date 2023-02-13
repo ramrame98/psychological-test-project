@@ -2,8 +2,8 @@ const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 
-const endPoint = 12;   /* 질문의 개수 정의 */
-const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+const endPoint = 10;   /* 질문의 개수 정의 */
+const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0]; /* 답변의 개수 */
 
 function calResult() {
 
@@ -25,6 +25,7 @@ function setResult() {
 
     const resultDesc = document.querySelector('.resultDesc');
     resultDesc.innerHTML = infoList[point].desc;
+
 }
 
 function goResult() {
