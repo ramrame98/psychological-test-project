@@ -12,7 +12,7 @@ function calResult() {
 }
 function setResult() {
     let point = calResult();
-    const resultName = document.querySelector('.resultname');
+    const resultName = document.querySelector('.resultLang');
     resultName.innerHTML = infoList[point].name;
 
     var resultImg = document.createElement('img');
@@ -23,8 +23,14 @@ function setResult() {
     resultImg.classList.add('img-fluid');
     imgDiv.appendChild(resultImg);
 
-    const resultDesc = document.querySelector('.resultDesc');
-    resultDesc.innerHTML = infoList[point].desc;
+    const langInfo = document.querySelector('.langInfo');
+    const bookInfo = document.querySelector('.bookInfo');
+    const lectureInfo = document.querySelector('.lectureInfo');
+    const negativeLang = document.querySelector('.negativeLang');
+    langInfo.innerHTML = infoList[point].detail;
+    bookInfo.innerHTML = infoList[point].book;
+    lectureInfo.innerHTML = infoList[point].lecture;
+    negativeLang.innerHTML = infoList[point].negativeLang;
 
 }
 
