@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
+    <!-- Page Share -->
+    <meta name="author" content="ParkKimKim" />
+    <meta name="keyword" content="나와 가장 잘 어울리는 개발 언어" />
+    <meta name="description" content="나와 가장 잘 어울리는 개발 언어" />
+
+    <meta property="og:url" content="https://languagerc.netlify.app/" />
+    <meta property="og:title" content="나와 가장 잘 어울리는 개발 언어" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/haha.png" />
+    <meta
+      property="og:description"
+      content="나와 가장 잘 어울리는 개발 언어는?"
+    />
 
     <!-- CSS 폴더 -->
     <link rel="stylesheet" href="./css/default.css" />
@@ -31,11 +44,23 @@
         <button type="button" class="start_btn" onclick="js:begin()">
           START
         </button>
+        <br />
+        <button type="button" class="page_btn">팀 소개 페이지 ›</button> <br />
+        <button type="button" class="page_btn">오즈코딩스쿨 알아보기 ›</button>
+
+        <div class="footer">
+          * 본 심리테스트는 오즈코딩스쿨 린스타트업 맞춤형 Serverless MVP 개발
+          전문가 양성 과정 1기 김남욱, 박정건, 김수람 팀이 2일 만에 구현한
+          결과물입니다.
+        </div>
       </section>
       <section id="qna">
-        <div class="status">
-          <div class="statusBar"></div>
+        <div class="status_box">
+          <div class="status">
+            <div class="statusBar"></div>
+          </div>
         </div>
+
         <div class="qBox"></div>
         <div class="answerBox"></div>
       </section>
@@ -47,7 +72,7 @@
         <div class="bookInfo"></div>
         <div class="lectureInfo"></div>
         <div class="negativeLang"></div>
-        <button type="button" class="kakao">카카오톡</button>
+        <button type="button" class="kakao">공유하기</button>
       </section>
       <script src="./js/data.js" charset="utf-8"></script>
       <script src="./js/start.js" charset="utf-8"></script>

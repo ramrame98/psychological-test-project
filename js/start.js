@@ -17,11 +17,11 @@ function setResult() {
   resultName.innerHTML = infoList[point].name;
 
   var resultImg = document.createElement("img");
+  resultImg.classList.add("resultImg");
   const imgDiv = document.querySelector("#resultImg");
   var imgURL = "img/image-" + point + ".png";
   resultImg.src = imgURL;
   resultImg.alt = point;
-  resultImg.classList.add("img-fluid");
   imgDiv.appendChild(resultImg);
 
   const langInfo = document.querySelector(".langInfo");

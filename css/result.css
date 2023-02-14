@@ -3,10 +3,15 @@
   width: 100%;
   text-align: center;
   color: rgb(79, 219, 66);
+  margin-top: 140px;
 }
 
 .resultname {
   font-size: 26px;
+}
+.resultImg {
+  width: 400px;
+  object-fit: cover;
 }
 
 .resultDesc {
@@ -23,4 +28,11 @@
 .kakao:hover,
 .kakao:focus {
   color: whitesmoke;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (min-width: 769px) {
 }

@@ -1,18 +1,20 @@
 #main {
   color: rgb(79, 219, 66);
-  height: 100vh;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: 100%;
+  margin-top: 140px;
 }
-p {
-  font-size: 20px;
-}
+
 h1 {
-  font-size: 24px;
+  font-size: 26px;
 }
+
+p {
+  font-size: 16px;
+  line-height: 140%;
+  color: whitesmoke;
+}
+
 .main_img {
   width: 300px;
   height: 225px;
@@ -23,7 +25,41 @@ h1 {
   background-color: rgb(33, 31, 31);
   color: rgb(79, 219, 66);
   border: none;
-  font-size: 44px;
+  font-size: 32px;
   letter-spacing: 10px;
   font-family: "Galmuri9";
+  margin: 10px 0;
+}
+
+.start_btn:hover,
+.start_btn:focus {
+  color: #fee500;
+  cursor: pointer;
+}
+
+.page_btn {
+  background-color: rgb(33, 31, 31);
+  color: whitesmoke;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.page_btn:hover,
+.page_btn:focus {
+  color: #fee500;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (min-width: 769px) {
 }
