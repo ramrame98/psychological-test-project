@@ -1,10 +1,20 @@
-#main{
-    background-color: whitesmoke;
-    width:80%;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 0 0 10px 1px rgb(234, 157, 157);
+#main {
+  background-color: rgb(33, 31, 31);
+  color: rgb(79, 219, 66);
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+  /* box-shadow: 0 0 10px 1px rgb(234, 157, 157); */
 }
-p{
-    font-size: 20px;
+p {
+  font-size: 20px;
+}
+
+.start_btn {
+  background-color: rgb(33, 31, 31);
+  color: rgb(79, 219, 66);
+  border: none;
+  font-size: 44px;
+  letter-spacing: 10px;
+  font-family: "Galmuri9";
 }

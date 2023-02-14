@@ -1,6 +1,8 @@
+@import url("https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css");
+
 body {
-  background-color: pink;
+  background-color: whitesmoke;
 }
 * {
-  font-family: "Nanum Pen Script", cursive;
+  font-family: "Galmuri9";
 }
