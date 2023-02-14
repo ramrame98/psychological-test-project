@@ -1,29 +1,26 @@
 #result {
-    display: none;
-    background-color: whitesmoke;
-    width:80%;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 0 0 10px 1px rgb(234, 157, 157);
+  display: none;
+  width: 100%;
+  text-align: center;
+  color: rgb(79, 219, 66);
 }
 
-.resultname{
-    font-size: 26px;
+.resultname {
+  font-size: 26px;
 }
 
-.resultDesc{
-    font-size: 20px;
+.resultDesc {
+  font-size: 20px;
 }
 
-.kakao{
-    color:white;
-    background-color: #FEE500;
-    font-size: 20px;
-    border: 0px;
-    border-radius: 20px;
+.kakao {
+  background-color: rgb(33, 31, 31);
+  color: #fee500;
+  border: 2px solid #fee500;
+  font-size: 20px;
 }
 
-.kakao:hover, .kakao:focus {
-    background-color: whitesmoke;
-    color: #FEE500;
-    }
+.kakao:hover,
+.kakao:focus {
+  color: whitesmoke;
+}
