@@ -18,16 +18,31 @@
   font-size: 20px;
 }
 
-.kakao {
+.return_btn {
   background-color: rgb(33, 31, 31);
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  font-size: 20px;
+}
+
+.return_btn:hover,
+.return_btn:focus {
   color: #fee500;
   border: 2px solid #fee500;
+  cursor: pointer;
+}
+
+.kakao {
+  background-color: rgb(33, 31, 31);
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
   font-size: 20px;
 }
 
 .kakao:hover,
 .kakao:focus {
-  color: whitesmoke;
+  color: #fee500;
+  border: 2px solid #fee500;
   cursor: pointer;
 }
 
