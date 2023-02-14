@@ -1,6 +1,7 @@
 const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
+const loading = document.querySelector("#loading");
 
 const endPoint = 10; /* 질문의 개수 정의 */
 const select = [
@@ -35,16 +36,14 @@ function setResult() {
 }
 
 function goResult() {
-  qna.style.WebkitAnimation = "fadeOut 1s";
-  qna.style.Animation = "fadeOut 1s";
+  // loading.style.WebkitAnimation = "fadeOut 1s";
+  // loading.style.Animation = "fadeOut 1s";
+  result.style.WebkitAnimation = "fadeIn 1s";
+  result.style.Animation = "fadeIn 1s";
   setTimeout(() => {
-    result.style.WebkitAnimation = "fadeIn 1s";
-    result.style.Animation = "fadeIn 1s";
-    setTimeout(() => {
-      qna.style.display = "none";
-      result.style.display = "block";
-    }, 450);
-  });
+    loading.style.display = "none";
+    result.style.display = "block";
+  }, 2500);
   setResult();
 }
 
@@ -80,9 +79,20 @@ function addAnswer(answerText, qIdx, idx) {
     false
   );
 }
+
+function goLoading() {
+  qna.style.WebkitAnimation = "fadeOut 1s";
+  qna.style.Animation = "fadeOut 1s";
+  loading.style.WebkitAnimation = "fadeIn 1s";
+  loading.style.Animation = "fadeIn 1s";
+  qna.style.display = "none";
+  loading.style.display = "block";
+  goResult();
+}
+
 function goNext(qIdx) {
   if (qIdx === endPoint) {
-    goResult();
+    goLoading();
     return;
   }
 

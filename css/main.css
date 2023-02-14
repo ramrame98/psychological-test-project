@@ -45,8 +45,7 @@ p {
   font-size: 16px;
 }
 
-.page_btn:hover,
-.page_btn:focus {
+.page_btn:hover {
   color: #fee500;
   cursor: pointer;
 }

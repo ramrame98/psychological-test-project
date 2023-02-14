@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./css/default.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/qna.css" />
+    <link rel="stylesheet" href="./css/loading.css" />
     <link rel="stylesheet" href="./css/result.css" />
     <link rel="stylesheet" href="./css/animation.css" />
     <!-- 폰트 링크 -->
@@ -45,8 +46,21 @@
           START
         </button>
         <br />
-        <button type="button" class="page_btn">팀 소개 페이지 ›</button> <br />
-        <button type="button" class="page_btn">오즈코딩스쿨 알아보기 ›</button>
+        <button
+          type="button"
+          class="page_btn"
+          onclick="window.open('https:/legend-palm-1f1.notion.site/1-_-7df4ef6cbc6840c7aa5018d4c2390685')"
+        >
+          팀 소개 페이지 ›
+        </button>
+        <br />
+        <button
+          type="button"
+          class="page_btn"
+          onclick="window.open('https:/ozcodingschool.com/')"
+        >
+          오즈코딩스쿨 알아보기 ›
+        </button>
 
         <div class="footer">
           * 본 심리테스트는 오즈코딩스쿨 린스타트업 맞춤형 Serverless MVP 개발
@@ -64,6 +78,9 @@
         <div class="qBox"></div>
         <div class="answerBox"></div>
       </section>
+      <section id="loading">
+        <h1>Loading . . .</h1>
+      </section>
       <section id="result">
         <h1>당신의 결과는?!</h1>
         <div class="resultLang"></div>
@@ -72,6 +89,7 @@
         <div class="bookInfo"></div>
         <div class="lectureInfo"></div>
         <div class="negativeLang"></div>
+        <button type="button" class="kakao">다시하기</button>
         <button type="button" class="kakao">공유하기</button>
       </section>
       <script src="./js/data.js" charset="utf-8"></script>
