@@ -118,15 +118,3 @@ function begin() {
     goNext(qIdx);
   }, 450);
 }
-
-function btn() {
-  var bttn = document.getElementById("bttn");
-  console.log(bttn.style.display);
-  if (!bttn.style.display) {
-    bttn.style.display = "block";
-  } else if (bttn.style.display == "none") {
-    bttn.style.display = "block";
-  } else {
-    bttn.style.display = "none";
-  }
-}

@@ -7,12 +7,6 @@ body {
 * {
   font-family: "Galmuri9";
 }
-.contents {
-  margin-top: 25vh;
-  padding: 0 30px;
-  word-wrap: break-word;
-  word-break: break-all;
-}
 
 .title_white {
   color: whitesmoke;
@@ -89,9 +83,6 @@ address {
 }
 
 @media (max-width: 768px) {
-  .contents {
-    margin-top: 21vh;
-  }
 }
 
 @media (min-width: 769px) {

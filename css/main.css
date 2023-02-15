@@ -73,7 +73,14 @@ p {
   margin-bottom: 20px;
 }
 
+.countt {
+  color: #fee500;
+}
+
 @media (max-width: 768px) {
+  .main_contents {
+    margin-top: 8vh;
+  }
   p {
     font-size: 14px;
   }

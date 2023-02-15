@@ -3,6 +3,13 @@
   width: 100%;
 }
 
+.contents {
+  margin-top: 25vh;
+  padding: 0 30px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
 .qBox {
   width: 100%;
   text-align: center;
@@ -70,6 +77,9 @@
 } /* https://colorzilla.com/gradient-editor < 그라디언트 배경 만들기 사이트*/
 
 @media (max-width: 768px) {
+  .contents {
+    margin-top: 10vh;
+  }
 }
 
 @media (min-width: 769px) {
