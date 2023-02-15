@@ -52,19 +52,11 @@
           </button>
           <br />
           <div class="countt"></div>
-          <button
-            type="button"
-            class="page_btn"
-            onclick="window.open('https:/legend-palm-1f1.notion.site/1-_-7df4ef6cbc6840c7aa5018d4c2390685')"
-          >
+          <button type="button" class="page_btn" onclick="openNotion()">
             팀 소개 페이지 ›
           </button>
           <br />
-          <button
-            type="button"
-            class="page_btn"
-            onclick="window.open('https:/ozcodingschool.com/')"
-          >
+          <button type="button" class="page_btn" onclick="openOz()">
             오즈코딩스쿨 알아보기 ›
           </button>
         </div>
@@ -237,6 +229,11 @@
           },
         ],
       });
+      const openNotion = () =>
+        window.open(
+          "https://legend-palm-1f1.notion.site/1-_-7df4ef6cbc6840c7aa5018d4c2390685"
+        );
+      const openOz = () => window.open("https://ozcodingschool.com/");
     </script>
   </body>
 </html>
