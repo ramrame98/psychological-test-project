@@ -3,11 +3,10 @@
   width: 100%;
   text-align: center;
   color: rgb(79, 219, 66);
-  margin-top: 140px;
 }
 
 .result_contents {
-  margin-top: 18vh;
+  margin-top: 17vh;
   padding: 0 30px;
   word-wrap: break-word;
   word-break: break-all;
@@ -21,6 +20,7 @@
   object-fit: cover;
   border: 3px solid rgb(79, 219, 66);
   filter: brightness(90%);
+  margin: 2vh 0;
 }
 
 .resultDesc {
@@ -32,6 +32,7 @@
   color: whitesmoke;
   border: 2px solid whitesmoke;
   font-size: 20px;
+  margin-top: 2vh;
 }
 
 .return_btn:hover,
@@ -46,6 +47,7 @@
   color: whitesmoke;
   border: 2px solid whitesmoke;
   font-size: 20px;
+  margin-top: 4vh;
 }
 
 .kakao:hover,
@@ -57,7 +59,7 @@
 
 #bttn {
   display: none;
-  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .result_name {
@@ -69,6 +71,11 @@
 }
 
 .result_negative {
+  margin-top: 1vh;
+}
+
+.result_height {
+  margin: 1vh 0;
 }
 
 @media (max-width: 768px) {
@@ -76,7 +83,7 @@
     width: 200px;
   }
   .result_contents {
-    margin-top: 18vh;
+    margin-top: 17vh;
     padding: 0 30px;
     word-wrap: break-word;
     word-break: break-all;
