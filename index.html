@@ -18,6 +18,13 @@
       content="나와 가장 잘 어울리는 개발 언어는?"
     />
 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <!-- 카카오톡 공유하기 -->
+    <script
+      type="text/javascript"
+      src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-636e0ca2efb02e04"
+    ></script>
+
     <!-- CSS 폴더 -->
     <link rel="stylesheet" href="./css/default.css" />
     <link rel="stylesheet" href="./css/main.css" />
@@ -34,38 +41,45 @@
   <body>
     <div class="container">
       <section id="main">
-        <h1>나와 가장 잘 어울리는 개발 언어는?</h1>
-        <div>
-          <img src="./img/main.gif" alt="mainImage" class="main_img" />
+        <div class="main_contents">
+          <h1>나와 가장 잘 어울리는 개발 언어는?</h1>
+          <div>
+            <img src="./img/main.gif" alt="mainImage" class="main_img" />
+          </div>
+          <p>
+            나와 어울리는 개발 언어를 찾아주는 사이트입니다! <br />
+            아래 시작하기 버튼을 눌러 시작해 주세요:)
+          </p>
+          <button type="button" class="start_btn" onclick="js:begin()">
+            START
+          </button>
+          <br />
+          <button
+            type="button"
+            class="page_btn"
+            onclick="window.open('https:/legend-palm-1f1.notion.site/1-_-7df4ef6cbc6840c7aa5018d4c2390685')"
+          >
+            팀 소개 페이지 ›
+          </button>
+          <br />
+          <button
+            type="button"
+            class="page_btn"
+            onclick="window.open('https:/ozcodingschool.com/')"
+          >
+            오즈코딩스쿨 알아보기 ›
+          </button>
         </div>
-        <p>
-          나와 어울리는 개발 언어를 찾아주는 사이트입니다! <br />
-          아래 시작하기 버튼을 눌러 시작해 주세요:)
-        </p>
-        <button type="button" class="start_btn" onclick="js:begin()">
-          START
-        </button>
-        <br />
-        <button
-          type="button"
-          class="page_btn"
-          onclick="window.open('https:/legend-palm-1f1.notion.site/1-_-7df4ef6cbc6840c7aa5018d4c2390685')"
-        >
-          팀 소개 페이지 ›
-        </button>
-        <br />
-        <button
-          type="button"
-          class="page_btn"
-          onclick="window.open('https:/ozcodingschool.com/')"
-        >
-          오즈코딩스쿨 알아보기 ›
-        </button>
 
         <div class="footer">
           * 본 심리테스트는 오즈코딩스쿨 린스타트업 맞춤형 Serverless MVP 개발
           전문가 양성 과정 1기 김남욱, 박정건, 김수람 팀이 2일 만에 구현한
           결과물입니다.
+        </div>
+        <div class="footer_min">
+          * 본 심리테스트는 오즈코딩스쿨 린스타트업 맞춤형<br />
+          Serverless MVP 개발 전문가 양성 과정 1기 <br />김남욱, 박정건, 김수람
+          팀이 2일 만에 구현한 결과물입니다.
         </div>
       </section>
       <section id="qna">
@@ -96,7 +110,9 @@
         >
           다시하기
         </button>
-        <button type="button" class="kakao">공유하기</button>
+        <button type="button" class="kakao" onclick="btn()">공유하기</button>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <div id="bttn" class="addthis_inline_share_toolbox"></div>
       </section>
       <script src="./js/data.js" charset="utf-8"></script>
       <script src="./js/start.js" charset="utf-8"></script>
