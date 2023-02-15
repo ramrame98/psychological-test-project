@@ -14,6 +14,9 @@ body {
   word-break: break-all;
 }
 
+.title_white {
+  color: whitesmoke;
+}
 /* ===== 리셋 구간 ===== */
 
 body {
