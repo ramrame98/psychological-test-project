@@ -7,6 +7,12 @@ body {
 * {
   font-family: "Galmuri9";
 }
+.contents {
+  margin-top: 25vh;
+  padding: 0 30px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
 
 /* ===== 리셋 구간 ===== */
 
@@ -77,4 +83,13 @@ address {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+@media (max-width: 768px) {
+  .contents {
+    margin-top: 21vh;
+  }
+}
+
+@media (min-width: 769px) {
 }

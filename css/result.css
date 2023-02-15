@@ -6,12 +6,21 @@
   margin-top: 140px;
 }
 
+.result_contents {
+  margin-top: 20vh;
+  padding: 0 30px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
 .resultname {
   font-size: 26px;
 }
 .resultImg {
   width: 300px;
   object-fit: cover;
+  border: 3px solid rgb(79, 219, 66);
+  filter: brightness(90%);
 }
 
 .resultDesc {
@@ -52,6 +61,15 @@
 }
 
 @media (max-width: 768px) {
+  .resultImg {
+    width: 200px;
+  }
+  .result_contents {
+    margin-top: 20vh;
+    padding: 0 30px;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
 }
 
 @media (min-width: 769px) {

@@ -6,8 +6,9 @@
   /* padding-left: 30px;
   padding-right: 30px; */
 }
+
 .main_contents {
-  margin-top: 140px;
+  margin-top: 20vh;
   padding: 0 30px;
   word-wrap: break-word;
   word-break: break-all;
