@@ -130,3 +130,42 @@ function btn() {
     bttn.style.display = "none";
   }
 }
+<!--카카오톡 공유하기 start2-->
+  Kakao.Share.createDefaultButton({
+  container: "#kakaotalk-sharing-btn",
+  objectType: "feed",
+  content: {
+  title: resultName,
+  description: langInfo,
+  imageUrl:
+  "https://psy-project.netlify.app/img/kakao_image.png",
+  link: {
+  // [내 애플리케이션] > [플랫폼] 에서 등록한 사이트 도메인과 일치해야 함
+  mobileWebUrl: "https://psy-project.netlify.app",
+  webUrl: "https://psy-project.netlify.app",
+},
+},
+  social: {
+  likeCount: 286,
+  commentCount: 45,
+  sharedCount: 845,
+},
+  buttons: [
+{
+  title: "웹으로 보기",
+  link: {
+  mobileWebUrl: "https://psy-project.netlify.app",
+  webUrl: "https://psy-project.netlify.app",
+},
+},
+{
+  title: "앱으로 보기",
+  link: {
+  mobileWebUrl: "https://psy-project.netlify.app",
+  webUrl: "https://psy-project.netlify.app",
+},
+},
+  ],
+});
+
+<!--카카오톡 공유하기 end2-->
