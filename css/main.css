@@ -59,20 +59,6 @@ p {
   cursor: pointer;
 }
 
-.footer {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 20px;
-}
-.footer_min {
-  display: none;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 20px;
-}
-
 .countt {
   color: #fee500;
 }
@@ -91,13 +77,29 @@ p {
 
   .footer {
     display: none;
+    position: relative;
   }
 
   .footer_min {
     display: block;
+    position: relative;
     font-size: 12px;
+    margin-top: 50px;
   }
 }
 
 @media (min-width: 769px) {
+  .footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 20px;
+  }
+  .footer_min {
+    display: none;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 20px;
+  }
 }
